@@ -10,11 +10,17 @@ Error Handling
 Deployment
 
 Commands Run:
+
 CD to MERN folder.
+
 npm install
+
 cd .\frontend
+
 npm i react-router-dom
+
 npm i zustand
+
 
 deploy commands:
 cd .\frontend
