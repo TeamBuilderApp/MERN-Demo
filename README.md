@@ -55,8 +55,9 @@ npm run build
 npm run start
 ```
 
-
-References:
+### References:
+```shell
 Free public domain images used from: https://free-images.com/
 https://chakra-ui.com/docs/get-started/frameworks/vite
 freeCodeCamp.org
+```
