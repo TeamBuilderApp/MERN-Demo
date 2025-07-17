@@ -15,8 +15,8 @@
 	"dependencies": {
 		"cross-env": "^7.0.3",
 		"dotenv": "^16.4.5",
-		"express": "^4.19.2",
-		"mongoose": "^8.5.1"
+		"express": "^4.21.2",
+		"mongoose": "^8.9.5"
 	},
 	"devDependencies": {
 		"nodemon": "^3.1.4"
