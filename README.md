@@ -26,7 +26,7 @@ cd .\frontend
 npm run build
 cd to root
 npm install cross-env (for windows OS) then if applicable: npm audit fix
-(**installs build packages and installs dist folder).
+(**installs build packages and installs dist folder)..
 npm run build
 npm run start
 ```
