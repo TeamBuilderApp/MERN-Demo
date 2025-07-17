@@ -3,10 +3,15 @@
 
 Tech Stack: React.js, Node.js, Express.js, MongoDB, Chakra UI
 API
+
 UI With React.js and ChakraUI
+
 MongoDB is a NO-SQL database:
+
 Collections -> products -> each product as another document.
+
 Error Handling
+
 Deployment
 
 Commands Run:
