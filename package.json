@@ -4,9 +4,9 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "cross-env NODE_ENV=development BackEnd/server.js",
-		"build": "npm install && npm install --prefix FrontEnd && npm run build --prefix FrontEnd",
-		"start": "cross-env NODE_ENV=production node BackEnd/server.js"
+		"dev": "cross-env NODE_ENV=development backend/server.js",
+		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend",
+		"start": "cross-env NODE_ENV=production node backend/server.js"
 	},
 	"type": "module",
 	"keywords": [],
