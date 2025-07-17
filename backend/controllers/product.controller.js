@@ -38,8 +38,17 @@ export const updateProduct = async (req, res) => {
 		return res.status(404).json({ success: false, message: "Invalid Product Id" });
 	}
 
+	// Validate and sanitize the product object
+	const allowedFields = ["name", "price", "image"];
+	const sanitizedProduct = {};
+	for (const key of allowedFields) {
+		if (product[key] !== undefined) {
+			sanitizedProduct[key] = product[key];
+		}
+	}
+
 	try {
-		const updatedProduct = await Product.findByIdAndUpdate(id, product, { new: true });
+		const updatedProduct = await Product.findByIdAndUpdate(id, sanitizedProduct, { new: true });
 		res.status(200).json({ success: true, data: updatedProduct });
 	} catch (error) {
 		res.status(500).json({ success: false, message: "Server Error" });
